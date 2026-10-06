@@ -2,3 +2,11 @@
 @import "base";
 @import "layout";
 @import "modules/example";
+@import "modules/card-article";
+@import "modules/section";
+body{
+  background-color: var(--Color-Background-Black);
+}
+p{
+  color: var(--Color-Text-Current, #FFF);
+}

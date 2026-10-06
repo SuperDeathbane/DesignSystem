@@ -12,6 +12,36 @@ img,
 video {
   display: block;
 }
+:root{
+  --Color-Text-Legend:#7D7D7D;
+  --Color-Background-Page: #0D0B13;
+  --Color-Text-Info:#7D7D7D;
+  --Color-Text-Tag:#7D7D7D;
+  --Color-Background-Tag:#fff;
+  --Color-Text-Current:#fff;
+  --Color-Text-CTA-White:#fff;
+  --Color-Text-CTA-Black:#000;
+  --Color-Background-Black:#000;
+  --Color-Background-Red:#EA333E;
+  --Color-Background-White:#fff;
+  --Color-Background-Card-Author:#fff;
+  --Color-Background-Card-Other:#000;
+  --Color-Text-Card-Label-Black:#000;
+  --Color-Text-Card-Label-White:#fff;
+  --Color-Text-Card-Author:#777;
+  --Color-Text-Nav-Current:#fff;
+  --Color-Background-Nav:#a78b00;
+  --Color-Background-Footer:#777;
+  --Color-Background-Icon:#000;
+  --Color-Background-Section:#fff;
+
+  --Niramit: "Niramit", sans-serif;
+  --Futura-PT: "Futura PT", sans-serif;
+}
 h1 {
+  font-family: var(--Niramit);
   color: red;
+}
+h2{
+  color: var(--Color-Text-Current, #FFF);
 }
