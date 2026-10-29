@@ -1,17 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: inherit;
-}
-
-img,
-video {
-  display: block;
-}
 :root{
   --Color-Text-Legend:#7D7D7D;
   --Color-Background-Page: #0D0B13;
@@ -35,13 +21,78 @@ video {
   --Color-Background-Icon:#000;
   --Color-Background-Section:#fff;
 
-  --Niramit: "Niramit", sans-serif;
+  --Niramit: "Niramit", sans-serif; // CV Nommer d'après la fonction
   --Futura-PT: "Futura PT", sans-serif;
 }
-h1 {
-  font-family: var(--Niramit);
-  color: red;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-h2{
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+h1 {
+  font-family: var(--Futura-PT);
   color: var(--Color-Text-Current, #FFF);
+  font-size: 24px;
+  font-weight: 450;
+  text-transform: uppercase;
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
+}
+h2 {
+  color: var(--Color-Text-Current, #FFF);
+}
+.sections h2{
+  font-family: var(--Futura-PT);
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center; 
+}
+
+p {
+  font-family: var(--Niramit);
+  color: var(--Color-Text-Current, #FFF);
+  font-size: 16px;
+  letter-spacing: 0.48px;
+  @media (min-width: 768px) {
+    font-size: 18px;
+  }
+}
+.Text-Info{
+  color: var(--Color-Text-Info, #7D7D7D);
+letter-spacing: 0.54px;
+}
+.corps-article{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 23px;
+align-self: stretch;
+
+}
+.illustration{
+  display: flex;
+flex-direction: column;
+align-items: center;
+align-self: stretch;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.Text-Legend{
+color: var(--Color-Text-Legend, #7D7D7D);
+font-size: 12px;
 }

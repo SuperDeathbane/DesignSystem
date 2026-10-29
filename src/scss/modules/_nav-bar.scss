@@ -1,0 +1,25 @@
+.nav-bar{
+  background: var(--Color-Background-Nav, #A78B00);
+}
+.nav-bar ul {
+display: flex;
+align-items: center;
+}
+
+.nav-bar li {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+font-family: "Futura PT";
+letter-spacing: 1.08px;
+text-transform: uppercase;
+  @media (min-width: 768px) {
+   padding: 12px 24px;
+   font-size: 36px;
+  }
+}
+
+.nav-bar a{
+  text-decoration: none;
+}

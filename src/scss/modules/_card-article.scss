@@ -1,14 +1,14 @@
 .card-article{
-background-color: var(--Color-Background-Card-Other);
-display: flex;
-padding: 24px;
-flex-direction: column;
-align-items: flex-start;
-gap: 12px;
-align-self: stretch;
-grid-row: span 2;
-grid-column: span 1;
-justify-self: stretch;
+  background-color: var(--Color-Background-Card-Other);
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  grid-row: span 2;
+  grid-column: span 1;
+  justify-self: stretch;
 }
 h3{
   color: var(--Color-Text-Card-Label-White);
