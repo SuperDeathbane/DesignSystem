@@ -1,0 +1,53 @@
+.card-author {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 24px;
+    align-self: stretch;
+    background: var(--Color-Background-Card-Author, #fff);
+    @media (min-width: 1024px) {
+        grid-row: 1 / span 1;
+        grid-column: 9 / span 4;
+        justify-self: stretch;
+        align-self: start;
+    }
+}
+
+.author-btn{
+  display: flex;
+padding: 12px 24px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+background: var(--Color-Background-Black, #000);
+color: var(--Color-Text-CTA-White, #FFF);
+text-align: center;
+font-size: 24px;
+letter-spacing: -0.96px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.card-author p{
+overflow: hidden;
+color: var(--Color-Text-Card-Label-Black, #000);
+text-overflow: ellipsis;
+font-family: "Futura PT";
+font-size: 20px;
+font-style: normal;
+font-weight: 450;
+line-height: normal;
+text-transform: uppercase;
+}
+.card-author h2{
+overflow: hidden;
+color: var(--Color-Text-Card-Author, #777);
+text-overflow: ellipsis;
+font-family: "Futura PT";
+font-size: 20px;
+font-style: normal;
+font-weight: 450;
+line-height: normal;
+text-transform: uppercase;
+}
