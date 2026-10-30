@@ -18,8 +18,26 @@ text-transform: uppercase;
    padding: 12px 24px;
    font-size: 36px;
   }
+   @media (min-width: 1024px) {
+   padding: 10px 20px;
+   font-size: 28px;
+}
 }
 
 .nav-bar a{
   text-decoration: none;
+}
+.subscribe-btn {
+  background: var(--Color-Background-Black, #000);
+padding: 12px 24px;
+align-items: center;
+color: var(--Color-Text-CTA-White, #FFF);
+text-align: center;
+font-family: var(--Futura-PT);
+font-size: 32px;
+letter-spacing: -1.28px;
+text-transform: uppercase;
+   @media (min-width: 1024px) {
+   font-size: 28px;
+}
 }

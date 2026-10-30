@@ -96,3 +96,21 @@ img {
 color: var(--Color-Text-Legend, #7D7D7D);
 font-size: 12px;
 }
+body.home {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 45px;
+}
+
+@media (min-width: 768px) {
+  body.home {
+  gap: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  body.home {
+    gap: 90px;
+  }
+
+}
